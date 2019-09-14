@@ -8,6 +8,9 @@ def nyc_pigeon_organizer(data)
           result[elem] = {}
         end
         if result[elem][attribute1].nil?
+          result[elem][attribute1] = []
+        end
+        result[elem][attribute1]
       end
     end
    end  
