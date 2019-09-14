@@ -5,6 +5,8 @@ def nyc_pigeon_organizer(data)
     value.each do |attribute2, value1|
       value1.each do |elem|
         result[elem] = {}
+        if result[elem] is nil
+          result[elem] = {}
       end
     end
    end  
